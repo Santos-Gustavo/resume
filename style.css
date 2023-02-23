@@ -186,29 +186,6 @@ hr.solid {
     border-top: 1px #bbb;
 }
 
-hr.solid-left {
-    border-top: 0.5px #bbb;
-    position: relative;
-    float: left;
-}
-
-hr.solid-right {
-    border-top: 0.5px #bbb;
-    position: relative;
-    float: right;
-}
-
-.title {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.2em;
-    top: -0.3em;
-    background-color: white;
-    padding: 0 1em;
-}
-
-
 .social-link {
     display: inline-block;
 }
@@ -246,4 +223,20 @@ hr.solid-right {
 
 .social-button:hover {
     background-color: #eee;
+}
+
+
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+    text-align: center;
+    font-size: 1.2em;
+    top: -0.3em;
+    background-color: white;
+    padding: 0 1em;
 }
