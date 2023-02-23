@@ -230,7 +230,6 @@ hr.solid {
     display: table;
     width: 100%; /*Optional*/
     table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
 }
 .Column {
     display: table-cell;
@@ -238,5 +237,14 @@ hr.solid {
     font-size: 1.2em;
     top: -0.3em;
     background-color: white;
-    padding: 0 1em;
+}
+
+.flag {
+    padding: 30;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    margin: 10px 35px -10px;
+    transition: background-color 0.5s;
 }
